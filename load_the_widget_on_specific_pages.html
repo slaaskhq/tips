@@ -1,0 +1,14 @@
+<script type="text/javascript">
+  // You can remove or add links here to load Slaask only on specific pages.
+  var pages = [
+    "https://get.slaask.com/",
+    "https://get.slaask.com/pricing/",
+    "https://get.slaask.com/features/"
+  ];
+
+  for (var i = 0; i < pages.length; i++) {
+    if(window.location.href.indexOf(pages[i]) > -1) {
+      _slaask.init('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+    }
+  }
+</script>
